@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>Owe Money Pay Money App</title>
+    <head>
+        <link href="../static/css/moneyApp.css" rel="stylesheet">
+    </head>
+        <body>
+            <div class="container">
+                <h1>Owe Money Pay Money App</h1>
+                <h2>Entering payment group</h2>
+                <h3>Please fill in the group name and password.</h3>
+                <form action="{{url_for('enterMoneyGroup')}}" method="POST">
+                    <input title="Your group members can't escape from oweing moola." placeholder="Enter Group Name" type="text" name="group_name" required> <br>
+                    <input title="Password for your group so no stranger can declare false money." placeholder="Enter Password" type="text" name="password" required> <br>
+                    <button type="submit"> Submit </button>
+                </form>
+            </div>
+        </body>
+</html>

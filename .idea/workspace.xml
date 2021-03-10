@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="75b473a8-cf5b-4960-8b7b-019ed4520262" name="Default Changelist" comment="" />
+    <list default="true" id="75b473a8-cf5b-4960-8b7b-019ed4520262" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/static/css/moneyApp.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/enterMoneyGroup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/transactionSplitFrontEnd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transactionApp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transactionSplitLogic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -38,13 +46,16 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../PythonApplicationPractices" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\SonalHanuman\IdeaProjects\PythonApplicationPractices\templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\SonalHanuman\IdeaProjects\mysite\flaskWebsite\static\css" />
     </key>
   </component>
   <component name="RunManager" selected="Python.SimpleWebsiteFlask">
