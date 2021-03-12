@@ -7,7 +7,8 @@ from pprint import pprint
 from collections import ChainMap
 
 app=Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI']='postgresql://postgres:postgres123@localhost/countryInfoDatabaseTest'
+# app.config['SQLALCHEMY_DATABASE_URI']='postgresql://postgres:postgres123@localhost/countryInfoDatabaseTest'
+app.config['SQLALCHEMY_DATABASE_URI']='postgres://vjuglmvvkywfyy:a6f2f08524e252210b1f0dfb18eca781ccb53e6a9c3c81d8588cdb6c223567c3@ec2-18-214-208-89.compute-1.amazonaws.com:5432/df4006fs7og0ff?sslmode=require'
 db=SQLAlchemy(app)
 
 class DataGroup(db.Model):
