@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request
 import transactionSplitLogic
-from flask_sqlalchemy import SQLAlchemy
+from flask.ext.sqlalchemy import SQLAlchemy
+from sqlalchemy.sql import func
 from itertools import groupby
 from pprint import pprint
 from collections import ChainMap
