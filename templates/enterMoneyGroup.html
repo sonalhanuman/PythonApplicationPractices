@@ -12,11 +12,12 @@
         <form action="{{url_for('insertTransactionRecord')}}" method="POST">
             <input title="Key in every group member name, even if they did not pay! Don't let them escape" placeholder="Enter Person Name" type="text" name="person_name" required> <br>
             <input title="How much did he pay? Zero?" placeholder="Enter Moola Amount" type="number" min="0" step="0.01" name="money_amount" required> <br>
+            <input title="Group Name Again" placeholder="Enter Group Name Again" type="text" name="group_name" required> <br>
             <button type="submit"> Submit </button>
         </form>
         <div class="results">
             <h2>Who owe who?!! Pay up!</h2>
-            <textarea id="transactionSplitResult" name="transactionSplitResult" rows="5" cols="100" disabled>Resolved the payments. Please follow up. (This part still under construction)</textarea>
+            <textarea id="transactionSplitResult" name="transactionSplitResult" rows="5" cols="100" disabled>{{transactionSplitResult | safe}}</textarea>
         </div>
     </div>
     </body>

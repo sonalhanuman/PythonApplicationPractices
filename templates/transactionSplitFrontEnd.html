@@ -9,6 +9,9 @@
                 <h1>Owe Money Pay Money App</h1>
                 <h2>Entering payment group</h2>
                 <h3>Please fill in the group name and password.</h3>
+                <div class="message">
+                    {{textGroup | safe}}
+                </div>
                 <form action="{{url_for('enterMoneyGroup')}}" method="POST">
                     <input title="Your group members can't escape from oweing moola." placeholder="Enter Group Name" type="text" name="group_name" required> <br>
                     <input title="Password for your group so no stranger can declare false money." placeholder="Enter Password" type="text" name="password" required> <br>
