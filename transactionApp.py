@@ -90,6 +90,5 @@ def insertTransactionRecord():
             toPrint = toPrint + str(dict)
         return render_template("enterMoneyGroup.html", transactionSplitResult=toPrint)
 
-
 if __name__ =="__main__":
     app.run(debug=True)

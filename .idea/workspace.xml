@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75b473a8-cf5b-4960-8b7b-019ed4520262" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/kittenOweMoney.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/kittenOweMoney.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/moneyApp.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/moneyApp.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/enterMoneyGroup.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/enterMoneyGroup.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/transactionApp.py" beforeDir="false" afterPath="$PROJECT_DIR$/transactionApp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transactionSplitLogic.py" beforeDir="false" afterPath="$PROJECT_DIR$/transactionSplitLogic.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -25,11 +25,15 @@ def paymentSplitting(transRecordList):
     for transRecord in filteredList:
         print("this is how much money per payment" + str(transRecord.get("amountPaid")))
         accumulateSum = accumulateSum + transRecord.get("amountPaid")
-    averagePerPerson = accumulateSum/(len(filteredList))
+    averagePerPerson = round((accumulateSum/(len(filteredList))), 2)
 
     for transRecord in filteredList:
-        balance = transRecord.get("amountPaid") - averagePerPerson
-        finalList.append({"personName": transRecord.get("personName"), "amountPaid": transRecord.get("amountPaid"), "balance": balance})
+        balance = round((transRecord.get("amountPaid") - averagePerPerson), 2)
+        finalList.append({"personName": transRecord.get("personName"), "amountPaid": transRecord.get("amountPaid"), "balance": balance, "receiverName": "testname"})
 
+    ToFinallyPrintList = []
+    for finalPayment in finalList:
+        stringToPrint = "{} needs to pay {}: {}. ".format(finalPayment.get("personName"), finalPayment.get("receiverName"), finalPayment.get("balance"))
+        ToFinallyPrintList.append(stringToPrint)
     print("the final list ever" + str(finalList))
-    return finalList
+    return ToFinallyPrintList
